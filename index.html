@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            html {
+                height: 100%;
+            }
+            
+            body {
+                text-align: center;
+                font-family: sans-serif;
+                height: 100%;
+                background-repeat: no-repeat;
+                background-image: linear-gradient(red, rgb(255, 174, 0));
+            }
+            
+            h1 {
+                font-size: 50px;
+            }
+
+            img {
+                width: 300px;
+            }
+
+            button {
+              padding: 15px 25px;
+              font-size: 24px;
+              margin: 50px;
+              text-align: center;
+              cursor: pointer;
+              outline: none;
+              color: #fff;
+              background-color: white;
+              border: 1px solid grey;
+              border-radius: 15px;
+              box-shadow: 0 9px #999;
+            }
+            
+            button:hover {border: 1px solid #999}
+            
+            button:active {
+              box-shadow: 0 5px #666;
+              transform: translateY(4px);
+            }
+            </style>
+    </head>
+    <body>
+        <h1>The (Browser) Cookie Clicker</h1>
+        <p>Will add a cookie to your browser every time you click. Utterly pointless. But have fun.</p>
+        <button onclick="document.cookie += 'among us '"><img src="cookie.jpg"></button>
+    </body>
+</html>
